@@ -1,7 +1,8 @@
 {
   "version": 2,
-  "buildCommand": "cd forward-ever && npm install && npm run build",
-  "outputDirectory": "forward-ever/dist",
-  "installCommand": "cd forward-ever && npm install",
-  "framework": null
+  "rootDirectory": "forward-ever",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "installCommand": "npm install",
+  "framework": "vite"
 }
