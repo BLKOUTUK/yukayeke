@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "buildCommand": "cd forward-ever && npm install && npm run build",
+  "outputDirectory": "forward-ever/dist",
+  "installCommand": "cd forward-ever && npm install",
+  "framework": null
+}
